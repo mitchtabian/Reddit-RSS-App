@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:contentPaddingRight="10dp"
+        app:contentPaddingLeft="10dp"
+        app:cardMaxElevation="15dp"
+        android:elevation="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/comment"
+                 android:gravity="center_vertical"
+                 android:text="comment"
+                 android:layout_marginTop="3dp"
+                 android:textStyle="bold"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/commentAuthor"
+                 android:gravity="center_vertical"
+                 android:text="Author"
+                 android:layout_marginTop="3dp"
+                 android:layout_below="@+id/comment"
+                 android:textSize="10sp"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/commentUpdated"
+                 android:gravity="center_vertical"
+                 android:text="Updated"
+                 android:layout_marginTop="3dp"
+                 android:layout_below="@+id/commentAuthor"
+                 android:textSize="10sp"/>
+
+         </RelativeLayout>
+
+            <ProgressBar
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/commentProgressBar"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

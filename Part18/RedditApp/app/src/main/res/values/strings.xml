@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RedditApp</string>
+    <string name="post_url">post_url</string>
+    <string name="post_thumbnail">post_thumbnail</string>
+    <string name="post_title">post_title</string>
+    <string name="post_author">post_author</string>
+    <string name="post_updated">post_updated</string>
+    <string name="post_id">post_id</string>
+    <string name="SessionUsername">tabian.com.redditapp.Account.SessionUsername</string>
+    <string name="SessionModhash">tabian.com.redditapp.Account.SessionModhash</string>
+    <string name="SessionCookie">tabian.com.redditapp.Account.SessionCookie</string>
+
+</resources>
