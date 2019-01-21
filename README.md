@@ -1,8 +1,11 @@
+<a href='https://www.youtube.com/watch?v=tiXTz3avg4s&list=PLgCYzUzKIBE9HUJU-upNvl3TRVAo9W47y' target='_blank'>
 <img class='header-img' src='https://s3.amazonaws.com/codingwithmitch-static-and-media/media/build-a-reddit-app-android-development/images/Reddit_App.png' />
+</a>
+
 
 <h1>Android Reddit App Course</h1>
 <h4>A step-by-step guide to build an Android App that integrates with Reddit.com's open source API</h4>
-<h4>Watch it here: <a href='https://codingwithmitch.com/courses/build-a-reddit-app/' target='_blank'>Reddit App Course</a></h4>
+<h4>Watch it here: <a href='https://www.youtube.com/watch?v=tiXTz3avg4s&list=PLgCYzUzKIBE9HUJU-upNvl3TRVAo9W47y' target='_blank'>Reddit App Course</a></h4>
 <hr>
 <p>For those of you who are not familiar with <a href='http://www.Reddit.com/' target=__blank>www.Reddit.com</a>, 
 it is considered "The Front Page of the Internet". They have hundreds (if not thousands) of subreddits where users 
